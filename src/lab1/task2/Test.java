@@ -33,5 +33,12 @@ public class Test {
         {
             System.out.println(st.getName());
         }
+        
+        Student student1 = students[0];
+        Student student2 = new Student();
+        student2.setName("Tudor");
+        student2.setYear(1);
+
+        System.out.println(student1.equals(student2));
     }
 }
